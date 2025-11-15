@@ -1,0 +1,41 @@
+:root {
+  --bg: #f4f4f4;
+  --text: #333;
+  --muted: #666;
+  --accent: #1f6feb;
+}
+
+/* Genel gövde ayarları */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* Navbar markasını biraz öne çıkaralım */
+.navbar-brand {
+  letter-spacing: 0.03em;
+}
+
+/* Jumbotron / hero içinde linkler vs. okunaklı olsun */
+.bg-dark a {
+  color: #ffffff;
+}
+
+/* Kartların küçük bir gölge ile daha “blog vari” görünmesi */
+.card {
+  border-radius: 12px;
+}
+
+/* Footer metni */
+footer p {
+  margin: 0;
+}
+
+/* Klavye erişilebilirliği */
+a:focus {
+  outline: 2px dashed var(--accent);
+  outline-offset: 3px;
+}
